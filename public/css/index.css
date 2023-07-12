@@ -1,118 +1,166 @@
 .task1 .item {
+  position: relative;
+  left: 200px;
+  top: 150px;
 }
 
 .task2 .item {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
 }
 
 .task3 .item {
+  position: absolute;
 }
 
 .container4 {
 }
 
 .task4 {
-  width: 1000px;
+  position: relative;
 }
 .task4 .item {
+  position: sticky;
+  margin: 0 auto;
 }
 
 .task5 .item1 {
   background-color: red;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  z-index: 2;
 }
 .task5 .item2 {
+  position: relative;
+  z-index: 1;
+  left: 40px;
+  bottom: 40px;
 }
 .task5 .item3 {
+  position: relative;
   background-color: green;
+  bottom: 170px;
+  z-index: 3;
 }
 
 .task6 .item {
+  float: left;
 }
 
 .task7 .item {
+  float: right;
 }
 
 .task8 .item1 {
+ clear: both;
 }
 .task8 .item2 {
   height: 120px;
+  float:right;
 }
 
 .task8 p {
+
 }
 
 .task9 .item1 {
   height: 200px;
+  
+ float: left;
 }
 .task9 .item2 {
+  position: relative;
+  left: calc(100% - 80px);
 }
 .task9 p {
+
 }
 
 .task10 .item1 {
+  float: right;
 }
 .task10 .item2 {
+  
 }
 .task10 p {
+
 }
 
 .task11 .img-item {
   height: 100%;
   width: 100%;
+  object-fit: contain;
 }
 
 .task12 .img-item {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .task13 .img-item {
   height: 100%;
   width: 100%;
+  object-fit: fill;
 }
 
 .task14 .img-item {
   height: 100%;
   width: 100%;
+  object-fit: scale-down;
 }
 
 .task15 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: center right;
 }
 
 .task16 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: top left;
+
 }
 
 .task17 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: bottom center;
 }
 
 .task18 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: left 40px top 20px;
 }
 
 .task19 .img-item {
   height: 100%;
   width: 100%;
   object-fit: none;
+  object-position: center;
 }
 
 .task20 {
+  user-select: none;
 }
 
 .task21 {
+  user-select: contain;
 }
 
 .task22 {
+  cursor: text;
+  color: blue;
 }
 
-html {
+html{
+  scroll-behavior: smooth;
 }
